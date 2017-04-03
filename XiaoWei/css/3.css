@@ -1,0 +1,50 @@
+*{margin: 0;padding: 0}
+
+body{
+    padding: 20px
+}
+main{
+    padding: 20px;
+    background: #eee;
+    border: 2px solid #999999;
+    overflow: auto
+}
+.left{
+    float: left;
+    height: auto;
+    width: 200px;
+    padding: 20px 10px 10px 10px;
+    border: 2px solid #999
+}
+    .left img{
+        margin: 0px 20px 10px 10px;
+        border: 2px solid #999
+        }
+    .left span{
+        vertical-align: top
+    }
+    .left_{
+        margin: 0 auto
+    }
+
+.mid{
+    width: auto;
+    height: auto;
+    margin: 0px 140px 0 240px;
+    border: 2px solid #999
+
+}
+
+
+
+
+.right{
+    float: right;
+    height: auto;
+    width: 120px;
+    border: 2px solid #999
+}
+    .right img{
+        margin: 20px;
+        border: 2px solid #999
+}
