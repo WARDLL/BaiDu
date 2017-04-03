@@ -13,7 +13,7 @@ header{width:100%;height: 70px;background: #3f3f3f;}
         header ul li{float:left;line-height: 70px;margin-left: 40px;color: black}
         header ul li a:link{color: white}
 
-main{width:100%;height: 100%;background: #ccc;line-height: 2em}
+main{width:100%;height: 100%;background: #ccc;line-height: 2em;position: relative}
 p{text-indent: 2em;}
     .div1{width:90%;background: white;margin:0 auto;top:30px;position: relative;padding: 20px;box-shadow:5px 5px 6px #000}
     .div2{width:90%;background: white;margin:0 auto;top:60px;position: relative;padding: 20px;box-shadow:5px 2px 6px #000}
@@ -22,10 +22,21 @@ p{text-indent: 2em;}
         .div3 p{border: 2px solid black;display: inline-block;text-align: center;margin: 20px 0 0 20px;text-indent: 0em}
     .div4{width:90%;background: white;margin:0 auto;margin-top:120px;margin-bottom: 30px;padding: 20px;box-shadow:5px 2px 6px #000}
     .div4 tr td,th{border: 2px solid #ccc}
-    .div5{width:90%;background: white;margin:0 auto;padding: 20px;margin-top: 150px;box-shadow:5px 2px 6px #000}
-        .div5_{margin-left: 30%}
+    .div5{width:400px;background: white;padding: 20px;box-shadow:5px 2px 6px #000}
+        .div5_{margin-left: 10%}
 footer{width: 100%;height: 70px;background: black;}
 footer p{color: white}
+
+.left__{
+    margin-right:450px
+}
+.right__{
+    position: absolute;
+    right: 30px;
+    top: 30px
+
+}
+
 
 
 
@@ -136,6 +147,38 @@ footer p{color: white}
 
             </div>
         </div>
+
+
+<div class="right__">
+        <div class="div5">
+            <h2 style="border-left:5px solid #ccc">这里以后是一个侧栏</h2>
+            <div class="div5_">
+                <form>请输入邮箱地址：<input type="text" value="这是一个文本输入框"/></form>
+                <p style="color: #ccc;text-indent: 8em;">邮箱地址请按要求格式输入</p>
+                <form>
+                    <p>请输入密码：<input type="password" value="这是一个文本输入框"/></p>
+                    请重复输入密码：<input type="password" value="这是一个文本输入框"/>
+                </form>
+                <p style="text-indent: 8em;color: #ccc">密码为6-16位英文数字</p>
+                <form>
+                    <p style="text-indent: 5em">性别：<input type="radio">男<input type="radio">女</p>
+                    <p style="text-indent: 5em">城市：
+                        <select>
+                            <option selected="selected">北京</option>
+                            <option>上海</option>
+                            <option>广州</option>
+                            <option>深圳</option>
+                        </select>
+                    </p>
+                    <p style="text-indent: 5em">爱好：<input type="checkbox">运动<input type="checkbox">艺术<input type="checkbox">科学</p>
+                    <!--将 span 元素的 vertical-align 属性设置为 top。与输入框上对齐-->
+                    <p style="text-indent: 3em"><span style="vertical-align: top">个人描述：</span><textarea rows="5" cols="30">这是一个多行输入框，输入您的个人描述</textarea></p>
+                </form>
+            </div>
+                <input type="submit" value="确认提交" style="width: 100%;background: #0080ff;color:white;height: 50px;border-radius:15px">
+        </div>
+
+</div>
         
 
         
