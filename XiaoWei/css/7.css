@@ -1,0 +1,182 @@
+*{margin: 0;padding: 0}
+body{
+    margin: 0 auto;
+    width: 1280px
+}
+
+
+header{
+    width: 100%;
+    height: 60px;
+    background: white
+}
+header img{
+    margin-left: 5%
+}
+.ul1{
+    float: right
+}
+.ul1 li{
+    display: inline-block;
+    font-family: '微软雅黑';
+    color: #ccc;
+    line-height: 60px;
+    font-size: 18px;
+    margin: 0 20px;
+}
+.ul1 a{
+    text-decoration: none;
+    display: block;
+    font-family: '微软雅黑';
+    color: #808080;
+    line-height: 60px;
+    font-size: 16px;
+    margin: 0 20px;
+}
+.ul1 .on,a:hover{
+    color:#e74f4d;
+    border-bottom: 5px solid #e74f4d
+}
+
+
+.main1{
+    margin-top: 5px;
+    display: table-cell;
+    vertical-align: middle;
+    width: 1280px;
+    height: 690px;
+    background-image: url(../images/7-main1.jpg)
+}
+.body1{
+    width: 470px;
+    height: 270px;
+    margin-left: 50px;
+}
+.body1 p1{
+    font-size: 60px;
+    font-family: '微软雅黑';
+    color: white
+}
+.body1 p2{
+    font-size: 21px;
+    font-family: '微软雅黑';
+    color: white
+}
+.body1 a{
+    margin-top: 30px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    line-height: 65px;
+    width: 331px;
+    height: 65px;
+    font-size: 30px;
+    font-family: '微软雅黑';
+    color: white;
+    background: #e74f4d;
+    border: none
+}
+
+.main2{
+    height: 250px
+}
+.main2 p{
+    font-size: 14px;
+    font-family: '微软雅黑';
+    color: #767777;
+    text-align: center
+}
+.A2{
+    float: left;
+    width: 320px;
+}
+.A2 img{
+    margin: 55px 0px 50px 136px
+}
+.B2{
+    float: left;
+    width: 320px;
+}
+.B2 img{
+    margin: 55px 0px 50px 136px 
+}
+.C2{
+    float: left;
+    width: 320px;
+}
+.C2 img{
+    margin: 55px 0px 50px 136px
+}
+.D2{
+    float: left;
+    width: 320px;
+}
+.D2 img{
+    margin: 55px 0px 50px 136px
+}
+
+.main3{
+    width: 1280px;
+    height: 360px;
+    display: table-cell;
+    vertical-align: middle;
+    background: #e5e5e3
+}
+.main3 p{
+    text-align: center;
+    font-size: 54px;
+    font-family: '微软雅黑';
+    color: #a1a1a1
+}
+.img3{
+    width: 120px;
+    height: 120px;
+    margin: 0px auto 20px;
+    background-size: contain;   /*用于等比缩小背景图(背景图需大于块，否则背景图仍会被放大以适应块)*/
+    background-image: url(../images/7-main3.png)
+}
+
+.main4{
+    width: 1280px;
+    height: 315px;
+    background-image: url(../images/7-main4.jpg)
+}
+.main4p1{
+    padding: 30px;
+    text-align: center;
+    font-size: 21px;
+    font-family: '微软雅黑';
+    color: white
+}
+.main4hr{
+    margin: -10px auto;
+    width: 30px;
+    border: 1px solid white
+}
+.main4p2{
+    padding: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-family: '微软雅黑';
+    color: white
+}
+select {
+  /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+  border: solid 1px #000;
+
+  /*很关键：将默认的select选择框样式清除*/
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+
+  /*在选择框的最右侧中间显示小箭头图片*/
+  background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
+
+
+  /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+  padding-right: 14px;
+}
+
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand { display: none; }
