@@ -86,34 +86,14 @@ header img{
     color: #767777;
     text-align: center
 }
-.A2{
+.A2,.B2,.C2,.D2{
     float: left;
     width: 320px;
 }
-.A2 img{
+.A2 img,.B2 img,.C2 img,.D2 img{
     margin: 55px 0px 50px 136px
 }
-.B2{
-    float: left;
-    width: 320px;
-}
-.B2 img{
-    margin: 55px 0px 50px 136px 
-}
-.C2{
-    float: left;
-    width: 320px;
-}
-.C2 img{
-    margin: 55px 0px 50px 136px
-}
-.D2{
-    float: left;
-    width: 320px;
-}
-.D2 img{
-    margin: 55px 0px 50px 136px
-}
+
 
 .main3{
     width: 1280px;
@@ -198,3 +178,57 @@ select{
     background: #e74f4d
 }
 
+
+.main5{
+    height: 604px
+}
+.A5,.B5,.C5,.D5{
+    margin-top: 142px;
+    text-align: center;
+    float: left;
+    width: 320px
+}
+.A5 img,.B5 img,.C5 img,.D5 img{
+    border: 1px solid #ccc
+}
+.main5 p1{
+    display: block;
+    font-size: 16px;
+    font-family: '微软雅黑';
+}
+.main5 p2{
+    display: block;
+    font-size: 14px;
+    font-family: '微软雅黑';
+    color: #808080
+}
+
+.main6{
+    height: 567px
+}
+.left6{
+    width: 851px;
+    height: 567px;
+    background-image: url(../images/7-main6-left.jpg)
+}
+.left6 p1{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    font-family: '微软雅黑';
+    color: white
+}
+.left6 p2{
+    display: block;
+    text-align: center;
+    font-size: 157px;
+    font-family: '微软雅黑';
+    color: white
+}
+.left6 p3,p4{
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    font-family: '微软雅黑';
+    color: white
+}
