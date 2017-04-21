@@ -160,23 +160,41 @@ header img{
     font-family: '微软雅黑';
     color: white
 }
-select {
-  /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
-  border: solid 1px #000;
-
-  /*很关键：将默认的select选择框样式清除*/
-  appearance:none;
-  -moz-appearance:none;
-  -webkit-appearance:none;
-
-  /*在选择框的最右侧中间显示小箭头图片*/
-  background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
-
-
-  /*为下拉小箭头留出一点位置，避免被文字覆盖*/
-  padding-right: 14px;
+.select4{
+    width: 1020px;
+    margin: 30px auto
+}
+select{
+    background: transparent;   
+    width: 235px;
+    padding-left: 10px;  
+    font-size: 16px;   
+    font-family: '微软雅黑';
+    color: #ccc;
+    border: 1px solid #ccc;   
+    height: 35px;   
+    -webkit-appearance: none; 
+}
+.selectA,.selectB,.selectC{
+    margin-right: 20px;
+    display: inline-block;
+    width: 235px;
+    height: 35px;
+    overflow: hidden;
+    background: url(../images/7-main4-select.png) no-repeat right white;
+}
+.selectD{
+    position: absolute;
+    margin-left: 5px;
+    display: inline-block
+}
+.selectD input{
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: '微软雅黑';
+    width: 235px;
+    height: 35px;
+    background: #e74f4d
 }
 
-
-/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
-select::-ms-expand { display: none; }
